@@ -263,8 +263,9 @@ $: stack(
         strudelContainer.innerHTML = `
             <div style="padding: 20px; color: #ff0088; text-align: center; background: rgba(0,0,0,0.5); border-radius: 8px;">
                 <p><strong>Strudel Live Coding Environment</strong></p>
-                <p>To run this code with audio, copy it to <a href="https://strudel.cc" target="_blank" style="color: #00ff88;">strudel.cc</a></p>
-                <p>This interface allows you to edit and export the code for use in the official Strudel environment.</p>
+                <p>This demo uses the online Strudel audio engine. If nothing plays, your browser may be blocking network access.</p>
+                <p>To run the music code locally, copy it to <a href="https://strudel.cc" target="_blank" style="color: #00ff88;">strudel.cc</a></p>
+                <p>The editor below still lets you view and export the Strudel code.</p>
             </div>
         `;
     }
